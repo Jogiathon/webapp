@@ -1,0 +1,13 @@
+// Override default variables before the import
+$body-bg: white;
+$heading: black;
+
+
+
+// Import Bootstrap and its default variables
+@import '~bootstrap/scss/bootstrap.scss';
+
+h1 {
+    color: $heading;
+    text-align: center;
+}

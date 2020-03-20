@@ -1,0 +1,15 @@
+// Override default variables before the import
+$body-bg: white;
+$heading: black;
+
+
+
+// Import Bootstrap and its default variables
+@import '~bootstrap/scss/bootstrap.scss';
+
+p {
+    width: 700px;
+    font-family: 'Myriad Pro Regular';
+    font-style: normal;
+    font-weight: normal;
+}
